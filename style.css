@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(158, 210, 253);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 100%;
+	max-width: fit-content;
+	min-height: fit-content;
+	background-color: rgb(245, 239, 231);
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(203, 212, 248);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(248, 249, 253);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .Recognition, .project, .certifications {
+	margin-bottom: 30px;
+    text-align: justify;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+#cssTable td 
+{
+    text-align: left; 
+    vertical-align: middle;
+}
+th {
+    text-align: left; 
+    vertical-align: middle;
+}
